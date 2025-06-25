@@ -654,3 +654,23 @@ footer .text span a:hover {
 .form-group button:hover {
   background-color: #0056b3;
 }
+.media-icons {
+  display: flex;
+  justify-content: flex-start; /* Start from the left */
+  gap: 15px;
+  padding-left: 90%;           /* Push them inward from the left side */
+}
+
+.media-icons a {
+  font-size: 24px;
+  color: #333333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.media-icons a:hover {
+  color: #10deec;
+}
+
+
