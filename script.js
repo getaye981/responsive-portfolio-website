@@ -46,8 +46,8 @@ navLinks.forEach((link) => {
 });
 document.getElementById('downloadBtn').addEventListener('click', function () {
   const link = document.createElement('a');
-  link.href = 'file/Getaye Aweke Bantihun.pdf';
-  link.download = 'Getaye Aweke Bantihun.pdf'; // The filename for download
+  link.href = 'file/Resum of Getaye Aweke.pdf';
+  link.download = 'Resum of Getaye Aweke.pdf'; // The filename for download
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
