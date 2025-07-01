@@ -44,6 +44,7 @@ let navLinks = document.querySelectorAll(".menu li a");
 navLinks.forEach((link) => {
   link.addEventListener("click", hideNavMenu);
 });
+
 document.getElementById('downloadBtn').addEventListener('click', function () {
   const link = document.createElement('a');
   link.href = 'file/Resum of Getaye Aweke.pdf';
@@ -52,20 +53,21 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
   link.click();
   document.body.removeChild(link);
 });
+
 const form = document.querySelector('.contact-form form');
 
-  form.addEventListener('submit', function(event) {
-    // Optionally, prevent actual submission if you want (uncomment next line)
-    // event.preventDefault();
+form.addEventListener('submit', function(event) {
+  // Optionally, prevent actual submission if you want (uncomment next line)
+  // event.preventDefault();
 
-    // Hide the form after submit button is clicked
-    form.style.display = 'none';
+  // Hide the form after submit button is clicked
+  form.style.display = 'none';
 
-    // Optionally, show a thank-you message
-    const thanks = document.createElement('p');
-    thanks.textContent = "Thank you for contacting me! I'll get back to you soon.";
-    thanks.style.textAlign = "center";
-    thanks.style.fontSize = "16px";
-    thanks.style.color = "#007BFF";
-    form.parentElement.appendChild(thanks);
-  });
+  // Optionally, show a thank-you message
+  const thanks = document.createElement('p');
+  thanks.textContent = "Thank you for contacting me! I'll get back to you soon.";
+  thanks.style.textAlign = "center";
+  thanks.style.fontSize = "16px";
+  thanks.style.color = "#007BFF";
+  form.parentElement.appendChild(thanks);
+});
