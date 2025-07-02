@@ -1,0 +1,177 @@
+[1mdiff --git a/Images/portif.PNG b/Images/portif.PNG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..28cbf7d[m
+Binary files /dev/null and b/Images/portif.PNG differ
+[1mdiff --git a/file/Resum of Getaye Aweke.pdf b/file/Resum of Getaye Aweke.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..75e25a2[m
+[1m--- /dev/null[m
+[1m+++ b/file/Resum of Getaye Aweke.pdf[m	
+[36m@@ -0,0 +1,92 @@[m
+[32m+[m[32m                                 APPLICATION LETTER[m
+[32m+[m
+[32m+[m[32mGetaye Aweke Bantihun[m
+[32m+[m[32mAddis Ababa Ethiopia[m
+[32m+[m[32mgeawbb95@gmail.com[m
+[32m+[m[32m+251924177995[m
+[32m+[m[32m6/28/2025[m
+[32m+[m
+[32m+[m[32mPosition: Frontend Developer[m
+[32m+[m
+[32m+[m[32mDear,[m
+[32m+[m
+[32m+[m[32mI am writing to apply for the Junior Frontend Developer position at Web[m
+[32m+[m[32mCraftsmith!. I have a solid foundation in HTML, CSS, JavaScript, and React, along[m
+[32m+[m[32mwith hands-on experience building responsive, user-friendly web applications.[m
+[32m+[m
+[32m+[m[32mI am passionate about clean code, continuous learning, and collaborating in fast-[m
+[32m+[m[32mpaced environments. I’m excited about the opportunity to contribute to your team[m
+[32m+[m[32mand grow as a developer at Web Craftsmith!.[m
+[32m+[m
+[32m+[m[32mThank you for considering my application. I look forward to the opportunity to[m
+[32m+[m[32mspeak further.[m
+[32m+[m
+[32m+[m[32mSincerely,[m
+[32m+[m[32mGetaye Aweke Bantihun[m
+[32m+[m[32m                                   CURRICLUM VITEA[m
+[32m+[m
+[32m+[m[32mGetaye Aweke Bantihun[m
+[32m+[m[32mAddis Ababa· Ethiopia[m
+[32m+[m[32mgeawbb95@gmail.com · ������+251924177995[m
+[32m+[m
+[32m+[m[32mProfessional Summary[m
+[32m+[m
+[32m+[m[32mMotivated and detail-oriented Junior Frontend Developer with hands-on[m
+[32m+[m[32mexperience in building responsive and interactive web applications using HTML,[m
+[32m+[m[32mCSS, JavaScript, and React.js. Passionate about clean UI, accessibility, and[m
+[32m+[m[32mcontinuous learning. Looking to contribute to a forward-thinking development[m
+[32m+[m[32mteam and grow as software professional.[m
+[32m+[m
+[32m+[m[32mTechnical Skills[m
+[32m+[m
+[32m+[m[32m    Languages: HTML5, CSS3, JavaScript (ES6+), Typescript (basic)[m
+[32m+[m[32m    Frameworks & Libraries: React.js, Bootstrap, Tailwind CSS[m
+[32m+[m[32m    Tools: Git, GitHub, VS Code, Chrome DevTools[m
+[32m+[m[32m    Others: REST APIs, Responsive Design, JSON, Figma (basic)[m
+[32m+[m
+[32m+[m[32mProjects[m
+[32m+[m
+[32m+[m[32m1. Portfolio Website – HTML,CSS and JavaScript[m
+[32m+[m[32mDesigned and built a personal portfolio showcasing my projects, resume, and[m
+[32m+[m[32mcontact form with smooth navigation and mobile responsiveness.[m
+[32m+[m
+[32m+[m[32m2. Currency Converter Web-App– React, Tailwind CSS with free API[m
+[32m+[m[32mDeveloped a currency Converter web-app with the React and Tailwind .[m
+[32m+[m
+[32m+[m[32m3. Weather App– React, OpenWeatherMap API[m
+[32m+[m[32mCreated a real-time weather app that fetches and displays weather data using an[m
+[32m+[m[32mexternal API.[m
+[32m+[m[32mEducation[m
+[32m+[m
+[32m+[m[32mBachelor of Science in Information Technology[m
+[32m+[m[32mWachemo University, hosanna, Ethiopia[m
+[32m+[m
+[32m+[m[32mWork Experience[m
+[32m+[m
+[32m+[m[32mFrontend Developer and Junior Application Administration Officer[m
+[32m+[m[32mGohbetoch Bank in Ethiopia[m
+[32m+[m[32m09/01/2023 – present[m
+[32m+[m
+[32m+[m[32m    Assisted in developing and maintaining company websites using HTML,[m
+[32m+[m[32m       CSS, and JavaScript[m
+[32m+[m
+[32m+[m[32m    Collaborated with senior developers to fix UI bugs and improve site[m
+[32m+[m[32m       performance[m
+[32m+[m
+[32m+[m[32m    Administrating the core banking system in bank[m
+[32m+[m
+[32m+[m[32mCertifications[m
+[32m+[m
+[32m+[m[32m    Programming Fundamentals from UDACITY[m
+[32m+[m[32m    Effective communication Skills from CaFEC[m
+[32m+[m[32m    API and Web Service at gohbetoch Bank[m
+[32m+[m
+[32m+[m[32mLanguages[m
+[32m+[m
+[32m+[m[32m    English – Advanced[m
+[32m+[m[32m    Amharic -fluent[m
+[32m+[m
+[32m+[m[32mReferences[m
+[32m+[m
+[32m+[m[32mAvailable upon request.[m
+[32m+[m[32m[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 996c4ae..8fef9d0 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -26,6 +26,7 @@[m
+         <li><a href="#home">Home</a></li>[m
+         <li><a href="#about">About</a></li>[m
+         <li><a href="#skills">Skills</a></li>[m
+[32m+[m[32m        <li><a href="#projects">Projects</a></li>[m
+         <li><a href="#services">Services</a></li>[m
+         <li><a href="#contact">Contact</a></li>[m
+         <div class="cancel-btn">[m
+[36m@@ -98,7 +99,7 @@[m
+   Incident Resolution and Technical Support, [m
+   System Documentation and Change Management,[m
+ Data Security and Compliance Support, [m
+[31m-REST/SOAP Web Services and  Version Control (e.g., Git)[m
+[32m+[m[32mREST/SOAP Web Services and  Version Control (e.g. Git)[m
+             </p>[m
+             <a href="https://github.com/getaye981" style="font-weight: bold; text-decoration: underline;">[m
+               Visit My GitHub[m
+[36m@@ -107,7 +108,7 @@[m [mREST/SOAP Web Services and  Version Control (e.g., Git)[m
+           <div class="experience">[m
+             <div class="num">2</div>[m
+             <div class="exp">[m
+[31m-              Years and 6 months Of <br />[m
+[32m+[m[32m              Years and above <br />[m
+               Experience[m
+             </div>[m
+           </div>[m
+[36m@@ -138,7 +139,7 @@[m [mREST/SOAP Web Services and  Version Control (e.g., Git)[m
+           </div>[m
+           <div class="box">[m
+             <div class="topic">[m
+[31m-                <i class="fab fa-angular" style="color:#dd1b16;"></i> AngularJS[m
+[32m+[m[32m                <i class="fab fa-angular" style="color:#e9716d;"></i> AngularJS[m
+             </div>[m
+             <div class="per">85%</div>[m
+         </div>[m
+[36m@@ -159,6 +160,69 @@[m [mREST/SOAP Web Services and  Version Control (e.g., Git)[m
+     </div>[m
+   </section>[m
+ [m
+[32m+[m[32m <!-- Projects Section Start -->[m
+[32m+[m[32m<section class="projects" id="projects">[m
+[32m+[m[32m  <div class="content">[m
+[32m+[m[32m    <div class="title"><span>My Projects</span></div>[m
+[32m+[m[32m    <div class="project-container">[m
+[32m+[m[32m      <!-- Project 1 -->[m
+[32m+[m[32m      <div class="project-card">[m
+[32m+[m[32m        <div class="project-info">[m
+[32m+[m[32m          <h3>Portfolio Website</h3>[m
+[32m+[m[32m          <p>A fully responsive portfolio platform built with HTML, CSS, JavaScript.</p>[m
+[32m+[m[32m          <div class="project-links">[m
+[32m+[m[32m            <a href="https://github.com/getaye981/responsive-portfolio-website" target="_blank">Get Code</a>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[41m      [m
+[32m+[m[32m      <!-- Project 2 -->[m
+[32m+[m[32m      <div class="project-card">[m
+[32m+[m[32m        <div class="project-info">[m
+[32m+[m[32m          <h3>Currency Converter WebApp</h3>[m
+[32m+[m[32m          <p>An React-based WebApp for Currency exchange with the exact exchange rate by using API. Built with React, HTML and TailwindCSS.</p>[m
+[32m+[m[32m          <div class="project-links">[m
+[32m+[m[32m            <a href="https://github.com/getaye981/currenyConverter" target="_blank">Get Code</a>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[41m      [m
+[32m+[m[32m      <!-- Project 3 -->[m
+[32m+[m[32m      <div class="project-card">[m
+[32m+[m[32m        <div class="project-info">[m
+[32m+[m[32m          <h3>WeatherApp</h3>[m
+[32m+[m[32m          <p>A responsive Wea
