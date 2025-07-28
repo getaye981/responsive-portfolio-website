@@ -3,6 +3,12 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("wcBbOeXdeICRjHZ4h"); // Replace with your user ID from EmailJS dashboard
+  })();
+</script>
   <meta charset="UTF-8" />
   <title>Responsive Portfolio Website || Getaye Aweke</title>
   <link rel="stylesheet" href="style.css" />
@@ -50,10 +56,9 @@
         <div class="text-four">From Ethiopia</div>
       </div>
       <div class="button">
-        <a href="https://responsive-portfolio-website-beta-two.vercel.app/">
+        <a href="file/Getaye_AwekeBantihun_Resume.pdf" target="_blank" rel="noopener noreferrer">
           <button>Hire Me</button>
         </a>
-        
       </div>
     </div>
   </section>
@@ -64,15 +69,18 @@
       <div class="title"><span>About Me</span></div>
       <div class="about-details">
         <div class="left">
-          <img src="./Images/about.jpg" alt="" />
+          <img src="./Images/about1.jpg" alt="" />
         </div>
         <div class="right">
           <div class="topic">Development Is My Passion</div>
           <p>
-            Motivated IT professional with 2 years and 6 months of hands-on experience in application administration, 
-            specializing in core banking systems, digital integrations, and technical support. Proven ability to manage,
-             optimize, and troubleshoot mission-critical banking applications, responsive WebApp Development, ensuring smooth operation and continuous system improvements. 
-            Strong understanding of API integration, SQL/database management, and financial software workflows.
+            Motivated and self-driven IT professional with over 3 years of experience in web development and 3 years of hands-on 
+            expertise in application administration, primarily within the banking and financial sector. Specializes in core banking systems,
+             digital integrations, and responsive web application development. Demonstrates a strong ability to manage, optimize, 
+             and troubleshoot mission-critical systems while ensuring seamless performance and continuous improvement.
+              Skilled in API integration, SQL/database management, and secure, accessible user interface design.
+               Passionate about building customized digital solutions with a focus on usability, performance,
+                and scalability. Brings a highly organized,deadline-driven mindset and a strong understanding of the current technology landscape to deliver best-in-class solutions.
           </p>
           <div class="button">
             <button id="downloadBtn">Download CV</button>
@@ -107,7 +115,7 @@ REST/SOAP Web Services and  Version Control (e.g. Git)
             </a>
             
           <div class="experience">
-            <div class="num">2</div>
+            <div class="num">3</div>
             <div class="exp">
               Years and above <br />
               Experience
@@ -168,7 +176,7 @@ REST/SOAP Web Services and  Version Control (e.g. Git)
     <div class="project-container">
       <!-- Project 1 -->
       <div class="project-card">
-        <img src="./images/portifolio.PNG" alt="Portfolio Project" class="project-image" />
+        <!--<img src="./images/portifolio.PNG" alt="Portfolio Project" class="project-image" />-->
         <div class="project-info">
           <h3>Portfolio Website</h3>
           <p>A fully responsive portfolio platform built with HTML, CSS, JavaScript.</p>
@@ -266,7 +274,7 @@ REST/SOAP Web Services and  Version Control (e.g. Git)
             <i class="fas fa-chart-line"></i>
           </div>
           <div class="topic">Technical Support</div>
-          <p>Dedicated and reliable IT professional with over 2 years and 6 months of experience in technical support and user assistance. 
+          <p>Dedicated and reliable IT professional with over 3 years of experience in technical support and user assistance. 
             Proven ability to troubleshoot hardware and software issues, support end-users in fast-paced environments, 
             and maintain a high level of customer satisfaction.
              Seeking a Helpdesk and User Support Technician role to contribute to a strong IT service delivery team.</p>
@@ -287,27 +295,42 @@ REST/SOAP Web Services and  Version Control (e.g. Git)
         <p>I'm available to help you bring your ideas to life using WordPress, HTML, CSS, JavaScript, AngularJS, React, and more.
 
           Feel free to contact me for collaboration or inquiries!</p>
-          <div class="contact-form">
-            <form action="mailto:geawbb95@gmail.com" method="POST" enctype="text/plain">
-              <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required placeholder="Enter your name">
-              </div>
-              
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Enter your email">
-              </div>
-              
-              <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
-              </div>
-              
-              <div class="form-group">
-                <button type="submit">Send</button>
-              </div>
-            </form>
+          <form id="form" method="POST">
+            <div class="field">
+              <label for="title">Title</label>
+              <input type="text" name="title" id="title">
+            </div>
+            
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            
+            <div class="field">
+              <label for="time">Time</label>
+              <input type="text" name="time" id="time">
+            </div>
+            
+            <div class="field">
+              <label for="message">Message</label>
+              <input type="text" name="message" id="message">
+            </div>
+            
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email">
+            </div>
+          
+            <input type="submit" id="button" value="Send Email">
+          </form>
+          
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('wcBbOeXdeICRjHZ4h')
+          </script>
           </div>
       </div>
     </div>

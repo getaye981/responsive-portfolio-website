@@ -47,27 +47,33 @@ navLinks.forEach((link) => {
 
 document.getElementById('downloadBtn').addEventListener('click', function () {
   const link = document.createElement('a');
-  link.href = 'file/Resum of Getaye Aweke.pdf';
+  link.href = 'file/Getaye_AwekeBantihun_Resume.pdf';
   link.download = 'Resum of Getaye Aweke.pdf'; // The filename for download
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 });
 
-const form = document.querySelector('.contact-form form');
+//const form = document.querySelector('.contact-form form');
 
-form.addEventListener('submit', function(event) {
-  // Optionally, prevent actual submission if you want (uncomment next line)
-  // event.preventDefault();
+const btn = document.getElementById('button');
 
-  // Hide the form after submit button is clicked
-  form.style.display = 'none';
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
-  // Optionally, show a thank-you message
-  const thanks = document.createElement('p');
-  thanks.textContent = "Thank you for contacting me! I'll get back to you soon.";
-  thanks.style.textAlign = "center";
-  thanks.style.fontSize = "16px";
-  thanks.style.color = "#007BFF";
-  form.parentElement.appendChild(thanks);
+   btn.value = 'Sending...';
+
+   const serviceID = 'service_5ow0lef';
+   const templateID = 'template_4shzwim';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Successfully Sent!');
+      this.reset();
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
 });
