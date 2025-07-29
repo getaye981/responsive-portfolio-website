@@ -413,7 +413,7 @@ section .button button:hover {
 
 /* Contact Me CSS */
 .contact {
-  background: #F0F8FF;
+  background: hsla(180, 1%, 86%, 0.959);
 }
 
 .contact .content {
@@ -852,7 +852,7 @@ footer .text span a:hover {
 
 .field label {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   color: #777;
 }
 
@@ -870,4 +870,10 @@ input[type="submit"] {
   background-color: #4460AA;
   color: #fff;
   border: none
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
